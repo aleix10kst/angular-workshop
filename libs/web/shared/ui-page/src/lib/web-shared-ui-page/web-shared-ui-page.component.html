@@ -1,0 +1,25 @@
+<div class="flex gap-x-4 min-h-full">
+  <div class="w-1/5 min-h-full">
+    <angular-workshop-web-shared-ui-card [title]="title">
+      <ng-content select="[menu]"></ng-content>
+      <!--           <a
+            class="rounded-xl flex p-4 w-full group hover:bg-green-500/60 transition-all ease-in-out duration-300"
+            *ngFor="let starship of (starships$ | async)?.results"
+          >
+            <span class="font-normal flex-grow group-hover:text-white"
+              >{{ starship.name }}
+              <span
+                class="block font-light text-gray-400 text-xs group-hover:text-white"
+                >{{ starship.model }}</span
+              >
+            </span>
+          </a> -->
+    </angular-workshop-web-shared-ui-card>
+  </div>
+
+  <div class="flex-1 min-h-full">
+    <angular-workshop-web-shared-ui-card>
+      <router-outlet></router-outlet>
+    </angular-workshop-web-shared-ui-card>
+  </div>
+</div>

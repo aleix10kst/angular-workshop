@@ -14,7 +14,44 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@angular-workshop/web-legacy/data-access": [
+        "libs/web-legacy/data-access/src/index.ts"
+      ],
+      "@angular-workshop/web-legacy/people": [
+        "libs/web-legacy/people/src/index.ts"
+      ],
+      "@angular-workshop/web-legacy/planets": [
+        "libs/web-legacy/planets/src/index.ts"
+      ],
+      "@angular-workshop/web-legacy/shared/ui-card": [
+        "libs/web-legacy/shared/ui-card/src/index.ts"
+      ],
+      "@angular-workshop/web-legacy/shared/ui-page": [
+        "libs/web-legacy/shared/ui-page/src/index.ts"
+      ],
+      "@angular-workshop/web-legacy/shared/util-pipes": [
+        "libs/web-legacy/shared/util-pipes/src/index.ts"
+      ],
+      "@angular-workshop/web-legacy/starships": [
+        "libs/web-legacy/starships/src/index.ts"
+      ],
+      "@angular-workshop/web/data-access": [
+        "libs/web/data-access/src/index.ts"
+      ],
+      "@angular-workshop/web/people": ["libs/web/people/src/index.ts"],
+      "@angular-workshop/web/planets": ["libs/web/planets/src/index.ts"],
+      "@angular-workshop/web/shared/ui-card": [
+        "libs/web/shared/ui-card/src/index.ts"
+      ],
+      "@angular-workshop/web/shared/ui-page": [
+        "libs/web/shared/ui-page/src/index.ts"
+      ],
+      "@angular-workshop/web/shared/util-pipes": [
+        "libs/web/shared/util-pipes/src/index.ts"
+      ],
+      "@angular-workshop/web/starships": ["libs/web/starships/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

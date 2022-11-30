@@ -1,0 +1,39 @@
+<div class="bg-gray-100 min-h-screen w-full">
+  <header class="bg-white px-8 border-b border-b-gray-200 shadow-xs">
+    <div class="py-4 flex justify-between items-center">
+      <a class="text-slate-900 font-semibold text-xl"
+        >Angular v15 (Legacy) Swapi</a
+      >
+      <nav class="space-x-8">
+        <a
+          class="hover:text-slate-700"
+          routerLink="/"
+          routerLinkActive="text-slate-900 font-semibold"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >Home</a
+        >
+        <a
+          class="hover:text-slate-700"
+          routerLink="/planets"
+          routerLinkActive="text-slate-900 font-semibold"
+          >Planets</a
+        >
+        <a
+          class="hover:text-slate-700"
+          routerLink="/people"
+          routerLinkActive="text-slate-900 font-semibold"
+          >People</a
+        >
+        <a
+          class="hover:text-slate-700"
+          routerLink="/starships"
+          routerLinkActive="text-slate-900 font-semibold"
+          >Starships</a
+        >
+      </nav>
+    </div>
+  </header>
+  <main class="p-8">
+    <router-outlet></router-outlet>
+  </main>
+</div>

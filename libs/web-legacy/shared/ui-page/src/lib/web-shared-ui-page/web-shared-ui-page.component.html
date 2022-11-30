@@ -1,0 +1,13 @@
+<div class="flex gap-x-4 min-h-full">
+  <div class="w-1/5 min-h-full">
+    <angular-workshop-web-shared-ui-card [title]="title">
+      <ng-content select="[menu]"></ng-content>
+    </angular-workshop-web-shared-ui-card>
+  </div>
+
+  <div class="flex-1 min-h-full">
+    <angular-workshop-web-shared-ui-card>
+      <router-outlet></router-outlet>
+    </angular-workshop-web-shared-ui-card>
+  </div>
+</div>
